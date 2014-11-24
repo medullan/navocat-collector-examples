@@ -11,7 +11,7 @@ module Example
   describe "YourFilter Test" do
     it 'yourfilter filter tracking id == 1' do
       filter = YourFilter.new()
-      dataset = Meda::Dataset.new('dataset  name', Meda.configuration)
+      dataset = Meda::Dataset.new('dataset   name', Meda.configuration)
       props = {}
       default_profile_id = {}
       hit =  Meda::Pageview.new(props, default_profile_id, dataset)
