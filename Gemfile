@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # For deployment
-gem 'meda', :git => 'https://github.com/medullan/navocat-collector.git'
+gem 'meda', :git => 'https://wesleyboland:everyday1@github.com/wesleyboland/nc-core.git', :branch => 'config-poc'
 gem 'staccato', :git => 'https://github.com/tpitale/staccato.git'
 
 gem 'rspec'
