@@ -3,8 +3,7 @@ require 'rack/test'
 require 'meda'
 require 'meda/collector'
 require 'rr'
-require 'meda/core/hit'
-require 'meda/core/Pageview'
+
 
 require_relative '../YourFilter.rb'
 
